@@ -1,7 +1,7 @@
-package gra.model;
+package avdenture_game.model;
 
 
-import gra.service.Context;
+import avdenture_game.service.Context;
 
 public class Window extends Thing {
     private boolean open = false;

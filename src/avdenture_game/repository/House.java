@@ -1,6 +1,4 @@
-package gra.repository;
-
-import gra.repository.Room;
+package avdenture_game.repository;
 
 import java.util.ArrayList;
 import java.util.List;

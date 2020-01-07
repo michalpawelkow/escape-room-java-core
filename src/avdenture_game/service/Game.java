@@ -1,8 +1,8 @@
-package gra.service;
+package avdenture_game.service;
 
-import gra.repository.Player;
-import gra.repository.Room;
-import gra.model.Thing;
+import avdenture_game.repository.Player;
+import avdenture_game.repository.Room;
+import avdenture_game.model.Thing;
 
 import java.util.List;
 

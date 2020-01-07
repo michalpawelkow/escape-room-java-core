@@ -1,7 +1,7 @@
-package gra.repository;
+package avdenture_game.repository;
 
-import gra.service.ThingNotFoundException;
-import gra.model.Thing;
+import avdenture_game.service.ThingNotFoundException;
+import avdenture_game.model.Thing;
 
 import java.util.ArrayList;
 import java.util.List;

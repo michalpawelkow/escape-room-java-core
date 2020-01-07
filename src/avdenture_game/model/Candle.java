@@ -1,6 +1,6 @@
-package gra.model;
+package avdenture_game.model;
 
-import gra.service.Context;
+import avdenture_game.service.Context;
 
 public class Candle extends Thing {
     //needed item
@@ -17,7 +17,7 @@ public class Candle extends Thing {
         if (!context.doesActivatorHaveThing(matches)) {
             return "PLAYER MUST TAKE MATCHES TO USE CANDLE ";
         }
-        //todo działa o ile gracz nie może stracić świeczki - jeśli może - zrobić dodatkowe sprawdzenie
+        // this work if player can't lose a candle, if he can - need to additional check
         context.lightLocation();
         return "PLAYER HAVE A CANDLE IN HIS POCKET, SO HE LIGHTS CANDLE";
 

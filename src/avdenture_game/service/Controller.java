@@ -1,7 +1,7 @@
-package gra.service;
+package avdenture_game.service;
 
 
-import gra.model.Thing;
+import avdenture_game.model.Thing;
 
 import java.util.InputMismatchException;
 import java.util.List;

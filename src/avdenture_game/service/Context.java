@@ -1,12 +1,11 @@
-package gra.service;
+package avdenture_game.service;
 
-import gra.model.Box;
-import gra.model.ItemToCreate;
-import gra.model.Matches;
-import gra.model.Thing;
-import gra.repository.Player;
-import gra.repository.Room;
-import gra.service.Game;
+import avdenture_game.model.Box;
+import avdenture_game.model.ItemToCreate;
+import avdenture_game.model.Matches;
+import avdenture_game.model.Thing;
+import avdenture_game.repository.Player;
+import avdenture_game.repository.Room;
 
 public class Context {
 
@@ -48,7 +47,7 @@ public class Context {
         room.lightOn();
     }
 
-    //dodawanie kolejnego modelu
+    //this method will add new model
     public void createItem(ItemToCreate itemToCreate) {
         switch (itemToCreate) {
             case BOX1:

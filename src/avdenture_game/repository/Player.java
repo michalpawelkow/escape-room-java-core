@@ -1,4 +1,4 @@
-package gra.repository;
+package avdenture_game.repository;
 
 public class Player extends ThingsContainer {
 
