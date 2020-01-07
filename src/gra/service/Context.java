@@ -48,6 +48,7 @@ public class Context {
         room.lightOn();
     }
 
+    //dodawanie kolejnego modelu
     public void createItem(ItemToCreate itemToCreate) {
         switch (itemToCreate) {
             case BOX1:

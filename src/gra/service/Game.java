@@ -29,7 +29,7 @@ public class Game {
 
     public String useThing(int index){
         String effect = actionOnThing(index);
-        updateOtherTings();
+        updateOtherThings();
         return effect;
     }
 
@@ -38,7 +38,7 @@ public class Game {
         return foundThing.useThing(new Context(room,player1,this));
     }
 
-    public void updateOtherTings() {
+    public void updateOtherThings() {
         updateHiddenItems();
     }
 

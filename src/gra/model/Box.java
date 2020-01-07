@@ -11,6 +11,6 @@ public class Box extends Thing{
 
     @Override
     public String useThing(Context context) {
-        return "OTWIERASZ KUFER";
+        return "YOU ARE OPEN THE BOX";
     }
 }

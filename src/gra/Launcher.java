@@ -49,19 +49,6 @@ public class Launcher {
         controller.startGame();
 
 
-        // player????? jak dodac konkretnego gracza
-
-        // dodawanie przedmiotow z poziomu main
-
-        // wytrych?? do drzwi i np szansa 1/3, wytrych pęka po drugiej probie
-        // zapałki znajduja sie w wiadrze z woda, Random czy sie odpala
-        // gracz jest skuty kajdankami aby sie wydostać musi wpisac szyf trzy cyfrowy,
-        //
-        // podpowiedz znajduje na kartce, ktora trzeba oswietlic zeby przeczytac
-        // odpalone zapalki gasna po czasie 5 sekund, czyszczona konsola z podpowiedzia
-        // " gdy pomocy potrzebujesz, uzyj go jak najlepiej umiesz"
-        // chodzi o numer 112
-
     }
 
 }

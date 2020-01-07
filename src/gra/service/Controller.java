@@ -44,7 +44,6 @@ public final class Controller {
     }
 
 
-
     public static int getPlayerInput() {
         return scanner.nextInt();
     }
