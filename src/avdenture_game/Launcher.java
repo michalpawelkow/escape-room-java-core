@@ -30,6 +30,9 @@ public class Launcher {
         //this will start game
         controller.startGame();
 
+        //
+        System.out.println("ZMIANA KODU !!");
+
 
     }
 
